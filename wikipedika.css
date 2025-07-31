@@ -1,0 +1,175 @@
+.sidebar{
+    
+    width: 15%;
+    /* padding: 10px;
+    border-right: 1px solid#ccc; */
+    position:sticky;
+    
+    
+    
+}
+.content{
+
+    width: 60%;
+    
+    padding: 10px;
+    /* box-sizing: border-box; */ 
+
+}
+  .wrapper{
+    display: flex;
+    /* width: 100%; */
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}  
+#img1{
+    float: left;
+    height: 45px;
+    width: 45px;
+    size: 2px;
+    margin-left: 50px;
+    
+    
+    
+}
+/* #div1{
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    height: 60px;
+} */
+
+#img2{
+    float: left;
+    
+    height: 50px;
+    width: 120px;
+    margin-left: 10px;
+    position: static;
+
+    
+    
+}
+#img3{
+    float: left;
+    height: 90px;
+    width: 100px;
+    margin-left: -100px;
+    position: absolute;
+
+}
+    
+.sidebar2{
+    width: 100%;
+    padding: 10px;
+      border-left: 1px solid#ccc; 
+     position: sticky;
+
+}
+.wrapper{
+
+     display: flex;
+    
+}
+.left{
+    width: 15%;
+
+}
+.middle{
+    width:60%;
+}
+.right{
+    width: 25%;
+}
+
+
+
+
+#box{
+    border-style: solid;
+    margin: 50px;
+    width: 200px;
+    height: 1000px;
+    color: blueviolet;
+    position: absolute;
+    right: 300px;
+}
+#box{
+    text-align: center;
+    color:rgb(22, 22, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    font: bold;
+}
+
+#imgid{
+    float: right;
+    width: 200px;
+    height:800px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+
+
+.plant-images{
+    border:1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    background: #eefbe5;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    top: 0px;
+    float: right;
+    margin-right: -350px;
+    margin-top: -150%;
+   
+    
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    text-align: center;
+}
+.image-grid img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+    
+#box{
+     background-color: white;
+    border-style: solid ;
+    border-width: 1px;
+    height: 130px;
+width: 1200px;
+margin-top: 20px;
+margin-right: 10px;
+left: 0px;
+right: 0px;
+
+top: 0px;
+  position:static; 
+ text-align: center;
+ color:blue;
+ border-color: green;
+ 
+}
+#icon{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    margin-left: -1100px;margin-top: -500px;
+
+}
+
+
+
+
+ 
